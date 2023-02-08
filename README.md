@@ -8,6 +8,11 @@ example beat: 3+4 3 3+7 3
 
 > 8th notes referenced by their key (1 - 9)
 
-> input must be seperated by a space indicating they are to be played seperately
+> input must be separated by a space indicating they are to be played separately
 
-> combinging sounds with a + will play the sounds at the same time
+> combining sounds with a + will play the sounds at the same time
+
+planned changes:
+> update sounds, add more variety
+
+> upgrade loop logic
