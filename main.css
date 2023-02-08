@@ -1,0 +1,26 @@
+#top, #mid, #bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    background-color: rgb(53, 149, 204);
+    border-radius: 20%;
+    box-shadow:
+    6px 6px 12px 3px powderblue,
+    6px 6px 12px 2px blue,
+    -6px -6px 12px indigo inset,
+
+    6px 6px 12px violet inset
+    ;
+    margin: 18px;
+    width: 20%;
+}
+
+.sound {
+    font-size: 24px;
+}
+
+body {
+    text-align: center;
+}

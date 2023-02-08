@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Drum</title>
+		<link rel="stylesheet" href="./main.css">
+	</head>
+
+	<body>
+		<div id="boxes">
+			<div id="top">
+				<div class="box"></div>
+				<div class="box"></div>
+				<div class="box"></div>
+			</div>
+
+			<div id="mid">
+				<div class="box"></div>
+				<div class="box"></div>
+				<div class="box"></div>
+			</div>
+
+			<div id="bottom">
+				<div class="box"></div>
+				<div class="box"></div>
+				<div class="box"></div>
+			</div>
+		</div>
+
+		<input id="input" placeholder="enter beat" required="true" value="4+3 3 7+3 3">
+		<button id="submit">Play</button>
+		<button id="stop">Stop</button>
+		<input id="loop-forever" type="checkbox">
+		<label for="loop-forever">Loop Forever</label>
+		<input id="bpm" type="range" min="0" max="200" value="120">
+		<label id="label" for="bpm"></label>
+
+		<script src="./script.js"></script>
+	</body>
+
+	<footer>
+	</footer>
+</html>
